@@ -88,7 +88,8 @@ header {
       180deg,
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
-    ), url(./images/Group\ 13\ \(1\)\ \(1\).png);
+    ),
+    url(./images/Group\13\\(1\)\\(1\).png);
 
   display: flex;
   flex-direction: column;
@@ -142,8 +143,7 @@ header {
   height: 52px;
   flex-shrink: 0;
   border-radius: 8px;
-  background: #ff5400;
-  color: #fff;
+  color: black;
   font-family: Mulish;
   font-size: 16px;
   font-style: normal;
@@ -238,4 +238,242 @@ header {
   width: 540px;
   height: 550px;
   flex-shrink: 0;
+}
+
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destination1 {
+  margin-top: 100px;
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.destination2 {
+  width: 643px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 50px;
+}
+
+.visit-image {
+  width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  gap: 24px;
+}
+
+.image11 {
+  width: 573px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+
+/* .textimg11 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: -10%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  line-height: normal;
+} */
+
+.image-2ta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.image22 {
+  width: 573px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+.image-3ta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.image--2ta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 100px;
+}
+
+.whychoose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choose {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.choose11 {
+  width: 643px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 48px;
+}
+
+.three-container {
+  margin: 0 auto;
+  width: 1140px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon1 {
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  padding-left: 32px;
+  padding-top: 32px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.icon2 {
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  padding-left: 32px;
+  padding-top: 32px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.icon3 {
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  padding-left: 32px;
+  padding-top: 32px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.icon11 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  margin-bottom: 15px;
+}
+
+.hotel-text {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.hotel-text22 {
+  width: 486px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 25px;
+}
+
+.icon12 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  margin-bottom: 15px;
+}
+
+.map-text {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.map-text33 {
+  width: 486px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 24px;
+}
+
+.icon13 {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+.price-text {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.price-text44 {
+  width: 486px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.icon3 {
+  margin-left: 465px;
+  margin-right: 465px;
 }
