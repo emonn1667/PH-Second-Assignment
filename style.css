@@ -477,3 +477,76 @@ header {
   margin-left: 465px;
   margin-right: 465px;
 }
+
+.newsletter {
+  display: flex;
+}
+
+.newletter-text {
+  max-width: 1140px;
+  padding-left: 32px;
+  padding-top: 32px;
+  background: rgb(252, 229, 229);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.letter-text {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.letter-text22 {
+  width: 350px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.letter-input {
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.letter-input12 {
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.button-subscribe {
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.hills {
+  width: 672px;
+  height: 422px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  padding-left: 24px;
+}
