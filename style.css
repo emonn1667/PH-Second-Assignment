@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;0,600;0,800;0,900;1,300;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -80,16 +80,15 @@ header {
 }
 
 .explore-container {
-  border: 2px solid red;
   width: 1170px;
   height: 500px;
   flex-shrink: 0;
   border-radius: 16px;
-  /* background: linear-gradient(
+  background: linear-gradient(
       180deg,
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
-    ), url(./images/Group\ 13\ \(1\)\ \(1\).png); */
+    ), url(./images/Group\ 13\ \(1\)\ \(1\).png);
 
   display: flex;
   flex-direction: column;
@@ -130,7 +129,42 @@ header {
   background: rgba(255, 255, 255, 0.3);
 }
 
+.inputform {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+}
 
+.inputff {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
 
+.inputkk {
+  color: #ffff;
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+}
 
-
+.text1 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
